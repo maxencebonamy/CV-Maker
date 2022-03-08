@@ -1,5 +1,4 @@
 # CV-Maker
-Create and customize your CV easily on a web page in order to export it in .pdf format.
 
 ## Description
 ![image](https://user-images.githubusercontent.com/66129931/157314970-010a9b9c-a5b3-4245-9fdc-b81c343efc35.png)
