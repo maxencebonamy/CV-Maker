@@ -1,0 +1,113 @@
+/* IMPORTS */
+
+@import "utils.css";
+@import "div.css";
+
+
+/* MAIN */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    background-color: var(--background);
+
+    font-family: default-font, sans-serif;
+
+    width: 21cm;
+    height: 29.7cm;
+
+    padding: 50px;
+}
+
+
+/* DIVIDERS */
+
+.divider {
+    margin: 10px 0 10px 0;
+    background-color: var(--secondary);
+    height: 3px;
+    width: 100%;
+}
+.small-divider {
+    margin: 10px 0 10px 0;
+    background-color: var(--primary);
+    height: 2px;
+    width: 100%;
+}
+.vertical-divider {
+    margin: 0 10px 0 10px;
+    background-color: var(--secondary);
+    width: 3px;
+    height: 100%;
+}
+
+
+/* DIVS */
+
+div {
+    border-radius: 10px;
+    /*border: solid 1px;*/
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.space {
+    margin-bottom: 20px;
+}
+.padding {
+    padding: 10px;
+}
+
+
+/* ITEMS */
+
+img {
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+}
+i {
+    color: var(--secondary);
+}
+.transparent {
+    color: var(--light);
+}
+
+
+/* TEXTS */
+
+h1 {
+    color: var(--secondary);
+    font-size: 50px;
+    margin: 0;
+}
+h2 {
+    color: var(--secondary);
+    font-size: 30px;
+    margin: 0;
+}
+h3 {
+    color: var(--primary);
+    font-size: 20px;
+    margin: 0;
+}
+p {
+    color: var(--primary);
+    font-size: 15px;
+    margin: 0;
+}
+.center {
+    text-align: center;
+}

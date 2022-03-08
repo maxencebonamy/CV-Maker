@@ -1,0 +1,81 @@
+/* TOP */
+
+#contact {
+    align-items: flex-start;
+
+    width: 100%;
+    margin-left: 50px;
+}
+
+
+/* PRESENTATION */
+
+#presentation {
+    background-color: var(--light);
+
+    width: 100%;
+}
+
+#info {
+    justify-content: center;
+
+    width: 400px;
+    margin-left: 50px;
+}
+#info div {
+    width: 100%;
+    padding: 5px 0 5px 0;
+}
+#info i {
+    width: 60px;
+}
+
+
+/* CONTENT */
+
+#content {
+    justify-content: space-between;
+}
+
+#skills {
+    width: calc(100% - 450px);
+}
+.competence {
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+.competence i {
+    width: 25px;
+}
+
+#experience {
+    background-color: var(--light);
+
+    width: 400px;
+}
+#date {
+    align-items: flex-end;
+    width: 60px;
+}
+#date h3 {
+    height: 100px;
+}
+.activity {
+    height: 100px;
+}
+
+
+/* BOTTOM */
+
+#bottom {
+    background-color: var(--light);
+    height: 100%;
+}
+#hobbies {
+    justify-content: space-evenly;
+    height: 90%;
+}
+.hobby {
+    justify-content: center;
+}

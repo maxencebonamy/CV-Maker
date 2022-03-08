@@ -1,0 +1,16 @@
+/* FONTS */
+
+@font-face {
+    font-family: default-font;
+    src: url("../assets/font/Klik-Light.otf") format("opentype");
+}
+
+
+/* COLORS */
+
+:root {
+    --background: #FFFFFF;
+    --light: #F4F4F4;
+    --secondary: #CCA483;
+    --primary: #393C3D;
+}
